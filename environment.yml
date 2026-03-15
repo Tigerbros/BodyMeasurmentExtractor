@@ -1,0 +1,16 @@
+name: haze-mvp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - fastapi
+  - uvicorn
+  - numpy
+  - pydantic
+  - pillow
+  - jinja2
+  - opencv
+  - pip
+  - pip:
+      - mediapipe
+      - python-multipart
